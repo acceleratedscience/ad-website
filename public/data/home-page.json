@@ -1,0 +1,109 @@
+{
+  "seo": {
+    "title": "Accelerated Discovery",
+    "description": "Accelerated Discovery builds on IBM’s research into the fundamental elements of life and the planet matter and molecules - to uncover new materials that can positively impact humanity. We’re developing advanced technologies incorporating AI, hybrid cloud and quantum into scientific research.",
+    "keywords": "IBM, Accelerated Discovery, AI, Hybrid Cloud, Quantum, Scientific Research"
+  },
+  "heroBannerProps": {
+    "title": "The world’s urgent problems require accelerated molecular discovery",
+    "description": "Accelerated Discovery builds on IBM’s research into the fundamental elements of life and the planet – matter and molecules – to uncover new materials that can positively impact humanity.<br/><br/>We’re developing advanced technologies incorporating AI, hybrid cloud and quantum into scientific research."
+  },
+  "projects": [
+    {
+      "title": "Chemical Synthesis",
+      "subtitle": "RXN for Chemistry",
+      "description": "Reduce the time and effort required to develop synthesis routes by applying language models to chemical reactions. This is AI for chemistry, made easy — leading to more discoveries and faster time to market.",
+      "primaryAction": {
+        "href": "/projects/rxn",
+        "label": "Learn more"
+      },
+      "secondaryAction": {
+        "href": "https://rxn.res.ibm.com",
+        "label": "Try for free"
+      },
+      "images": [
+        {
+          "imagePath": "rxn/banner-home-page.jpg",
+          "parallaxImagePath": "rxn/parallax.png",
+          "alt": "RXN for Chemistry"
+        }
+      ]
+    },
+    {
+      "title": "Knowledge extraction",
+      "subtitle": "Deep Search",
+      "description": "Make scientific information searchable and uncover new relationships by using AI for language and image understanding. Get answers about molecule properties faster, for wider explorations and an accelerated narrowing of leads.",
+      "primaryAction": {
+        "href": "/projects/deep-search",
+        "label": "Learn more"
+      },
+      "secondaryAction": {
+        "href": "https://ds4sd.github.io/",
+        "label": "Try for free"
+      },
+      "images": [
+        {
+          "imagePath": "deep-search/banner-home-page.jpg",
+          "parallaxImagePath": "deep-search/parallax.png",
+          "alt": "Deep Search"
+        }
+      ]
+    },
+    {
+      "title": "Developing new models for molecular discovery",
+      "description": "We’re continually inventing new applications of advanced AI in all phases of molecular discovery and making early versions available to scientists.",
+      "images": [
+        {
+          "imagePath": "gt4sd/banner-home-page.jpg",
+          "alt": "GT4SD",
+          "caption": "<strong>GT4SD:</strong> An open source toolkit for generative molecular design.",
+          "parallaxImagePath": "",
+          "primaryAction": {
+            "href": "/projects/gt4sd",
+            "label": "Learn more"
+          }
+        },
+        {
+          "imagePath": "st4sd/banner-home-page.jpg",
+          "alt": "ST4SD",
+          "caption": "<strong>ST4SD:</strong> An open source toolkit for AI-enhanced molecular simulation.",
+          "primaryAction": {
+            "href": "/projects/st4sd",
+            "label": "Learn more"
+          }
+        }
+      ]
+    }
+  ],
+  "bannerProps": {
+    "title": "Discover more, faster.",
+    "description": "As part of IBM Research, we believe advances in computing can accelerate solutions to the world’s most urgent problems. We’re building interoperable software that applies advanced AI techniques like generative models, attention-based architectures, and self-supervised learning to molecular discovery.",
+    "imageUrl": "/images/home-page/banner.jpg"
+  },
+  "tileBoxes": [
+    {
+      "title": "Bring AI into your existing workflow.",
+      "subtitle": "See how Accelerated Discovery tools work for you, regardless of AI expertise.",
+      "links": [
+        {
+          "href": "https://rxn.app.accelerate.science/rxn/sign-in",
+          "label": "Try RXN, free"
+        },
+        {
+          "href": "https://ds4sd.github.io/",
+          "label": "Try Deep Search, free"
+        }
+      ]
+    },
+    {
+      "title": "Broaden your discovery space.",
+      "subtitle": "Discover more, faster, with Accelerated Discovery for enterprise. ",
+      "links": [
+        {
+          "href": "/talk-to-a-representative",
+          "label": "Talk to a representative"
+        }
+      ]
+    }
+  ]
+}

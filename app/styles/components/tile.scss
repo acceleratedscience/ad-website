@@ -1,0 +1,36 @@
+.cds--tile {
+  padding: var(--cds-spacing-05);
+  @include breakpoint-up('md') {
+    padding: var(--cds-spacing-07);
+  }
+  @include breakpoint-up('lg') {
+    padding: var(--cds-spacing-10);
+  }
+}
+
+.tile {
+  &--white {
+    background: theme.$background;
+    color: theme.$text-primary;
+  }
+  &--gray-layer-01 {
+    background: theme.$layer-selected-01;
+    color: theme.$text-primary;
+  }
+  &--gray {
+    background: theme.$background-inverse;
+    color: theme.$text-inverse;
+  }
+  &--black {
+    background: theme.$layer-selected-inverse;
+    color: theme.$text-inverse;
+  }
+  &--blue-60 {
+    background: colors.$blue-60;
+    color: theme.$text-inverse;
+  }
+  &--blue-70 {
+    background: colors.$blue-70;
+    color: theme.$text-inverse;
+  }
+}
