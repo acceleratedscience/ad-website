@@ -1,0 +1,13 @@
+{
+  "title": "",
+  "subtitle": "Privacy Policy",
+  "description": "Accelerate.Science is committed to protecting and respecting your privacy, and we'll only use your personal information to administer your account and to provide the products and services you requested from us. From time to time, we would like to contact you about our products and services, as well as other content that may be of interest to you. You may unsubscribe from these communications at any time. By submitting the preceding form, you consent to allow IBM to store and process the personal information submitted to provide the content requested.",
+  "bannerImage": {
+    "imagePath": "privacy/banner.jpg",
+    "alt": "Privacy"
+  },
+  "bannerImageMobile": {
+    "imagePath": "privacy/banner-mobile.jpg",
+    "alt": "Privacy"
+  }
+}

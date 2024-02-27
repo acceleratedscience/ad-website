@@ -1,0 +1,134 @@
+{
+  "slug": "rxn",
+  "seo": {
+    "title": "RXN for Chemistry",
+    "description": "RXN for Chemistry, part of the Accelerated Discovery suite from IBM Research",
+    "keywords": "RXN, chemical synthesis, AI for research science, AI for chemical synthesis"
+  },
+  "title": "An AI lab partner for chemical synthesis",
+  "subtitle": "RXN for Chemistry",
+  "description": "Predict reactions, find retrosynthesis pathways, and derive experimental procedures with RXN for Chemistry.",
+  "bannerImage": {
+    "imagePath": "rxn/banner.jpg",
+    "alt": "RXN for Chemistry"
+  },
+  "bannerImageMobile": {
+    "imagePath": "rxn/banner-mobile.jpg",
+    "alt": "RXN for Chemistry"
+  },
+  "bannerCta": {
+    "href": "https://rxn.app.accelerate.science/rxn/sign-in",
+    "label": "Try RXN for free"
+  },
+  "mainImage": {
+    "imagePath": "rxn/main-image.jpg",
+    "alt": "Interface screenshot"
+  },
+  "mainImageMobile": {
+    "imagePath": "rxn/main-image-mobile.jpg",
+    "alt": "Interface screenshot"
+  },
+  "faqs": {
+    "title": "New ideas for retrosynthesis",
+    "description": "RXN uses AI trained on millions of chemical reaction records to suggest optimal synthesis routes, dramatically reducing manual effort, saving time and cost.",
+    "items": [
+      {
+        "title": "Plan retrosynthesis routes",
+        "description": "Upload molecules to determine reactions and ingredients",
+        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-1.json"
+      },
+      {
+        "title": "Predict chemical reactions",
+        "description": "Using molecular transformer models that are flexible and non-rule-based",
+        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-2.json"
+      },
+      {
+        "title": "Generate experimental procedures",
+        "description": "For use in manual or automated lab operations",
+        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-3.json"
+      }
+    ]
+    },
+  "articles": {
+    "title": "The first language model for chemistry",
+    "description": "RXN is based on molecular transformer models that understand the natural language of chemistry, trained on over 3 million chemical reactions. Scientists can upload molecules to the cloud to determine reactions and ingredients.\n\n Results are accurate and fast, at a rate of ~7ms/reaction. Huge data sets containing millions of reactions can be mapped within a few hours.",
+    "url": {
+      "href": "https://research.ibm.com/blog/rxnmapper-chemistry-grammar",
+      "label": "Learn more about the science"
+    },
+    "items": [
+      {
+        "title": "Inferring experimental procedures from text-based representations of chemical reactions",
+        "authors": "A. C. Vaucher, P.Schwaller, J. Geluykens, V. H. Nair, A. Iuliano, T. Laino. Nat.Commun. 2021, 12, 2573",
+        "url": "https://www.nature.com/articles/s41467-021-22951-1"
+      },
+      {
+        "title": "\"Found in Translation\": predicting outcomes of complexorganic chemistry reactions using neural sequence-to-sequence models.",
+        "authors": "P. Schwaller, T. Gaudin, D Lanyi, C. Bekas,T. Laino. Chem. Sci., 2018, 9, 6091-6098",
+        "url": "https://arxiv.org/abs/1711.04810"
+      },
+      {
+        "title": "Predicting retrosynthetic pathways using a combined linguistic model and hyper-graph exploration strategy.",
+        "authors": "P. Schwaller, R. Petraglia, V. Zullo, V. H. Nair, R. A. Haeuselmann, R. Pisoni, C. Bekas, A. Iuliano, T. Laino. Chem. Sci., 2020,11, 3316-3325",
+        "url": "https://arxiv.org/abs/1910.08036"
+      },
+      {
+        "title": "Unassisted Noise-Reduction of Chemical Reactions Data Sets.",
+        "authors": "A. C. Vaucher, P. Schwaller, J. Geluykens, V. H. Nair, A.Iuliano, T. Laino. ChemRxiv preprint, 2020",
+        "url": "https://www.nature.com/articles/s42256-021-00319-w"
+      },
+      {
+        "title": "Automated extraction of chemical synthesis actions from experimental procedures.",
+        "authors": "A. C. Vaucher, P. Schwaller, J.Geluykens, V. H. Nair, A. Iuliano, T. Laino. Nat. Commun.2020, 11, 3601",
+        "url": "https://www.nature.com/articles/s41467-020-17266-6"
+      }
+    ]
+  },
+  "features": {
+    "title": "Lab-ready features",
+    "items": [
+      {
+        "title": "Multi-modal",
+        "description": "Work with text-based or drawn representations of molecules and reactions as inputs",
+        "pictogramName": "DataApis"
+      },
+      {
+        "title": "Lab integration",
+        "description": "Convert chemical recipes to machine-readable instructions for use on autonomous lab hardware",
+        "pictogramName": "Automated"
+      },
+      {
+        "title": "Advanced predictive model",
+        "description": "Predict chemical reactions in seconds using models trained on millions of reactions",
+        "pictogramName": "Ai"
+      },
+      {
+        "title": "Share and collaborate",
+        "description": "Collaborate on projects and share data with colleagues, securely",
+        "pictogramName": "Collaboration"
+      }
+    ]
+  },
+    "pricing": [
+    {
+      "title": "Try RXN now, for free",
+      "subtitle": "Start accelerating your chemical synthesis today, risk-free, with RXN for Chemistry.",
+      "links": [
+        {
+          "href": "https://rxn.app.accelerate.science/rxn/sign-in",
+          "label": "Get Started"
+        }
+      ]
+    },
+    {
+      "title": "RXN for Teams",
+      "subtitle": "RXN for Chemistry is most powerful when used by your entire team. Request a meeting to learn more.",
+      "hubspotFormConfig": {
+        "region": "na1",
+        "portalId": "22330883",
+        "formId": "b8c36321-e327-4bdb-9f4a-45ce7f2d71c1",
+        "submitText": "Contact a representative"
+      }
+    }
+  ]
+}
