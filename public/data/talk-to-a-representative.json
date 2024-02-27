@@ -1,0 +1,19 @@
+{
+  "title": "Discover more, faster",
+  "subtitle": "Accelerated Discovery for Enterprise",
+  "description": "IBM Research applications and tools can transform your molecular discovery. Request a meeting to learn more.",
+  "bannerImage": {
+    "imagePath": "talk-to-a-representative/banner.jpg",
+    "alt": "Chemical Synthesis"
+  },
+  "bannerImageMobile": {
+    "imagePath": "talk-to-a-representative/banner-mobile.jpg",
+    "alt": "Chemical Synthesis"
+  },
+  "hubspotFormConfig": {
+    "region": "na1",
+    "portalId": "22330883",
+    "formId": "01ebc84f-2fca-4d2a-8101-499e34a7e3ab",
+    "submitText": "Contact a representative"
+  }
+}

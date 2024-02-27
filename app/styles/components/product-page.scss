@@ -1,0 +1,31 @@
+.background-product-page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2000px;
+  width: 0;
+  @include breakpoint-up('md') {
+    width: 50%;
+  }
+  @include breakpoint-up('lg') {
+    width: calc(
+      (100% - var(--cds-grid-margin) * 2 - var(--cds-grid-gutter)) / 5 * 2 +
+        var(--cds-grid-margin) + var(--cds-grid-gutter) / 2
+    );
+  }
+  @include breakpoint-up('xlg') {
+    --column-width: calc(100% - var(--cds-grid-margin) * 2) / 18;
+    width: calc(
+      (var(--column-width) * 16 - var(--cds-grid-gutter)) / 5 * 2 +
+        var(--cds-grid-margin) + var(--cds-grid-gutter) / 2 +
+        var(--column-width)
+    );
+  }
+
+  @include breakpoint-up('max') {
+    width: calc(50vw - 8.7rem);
+  }
+}

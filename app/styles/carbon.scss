@@ -1,0 +1,35 @@
+@use '@carbon/react/scss/reset';
+@use '@carbon/react/scss/grid';
+@use '@carbon/react/scss/layout';
+@use '@carbon/react/scss/layer';
+@use '@carbon/react/scss/themes';
+@use '@carbon/react/scss/theme';
+@use '@carbon/react/scss/colors';
+@use '@carbon/react/scss/type';
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/react/scss/components/button';
+@use '@carbon/react/scss/components/tile';
+@use '@carbon/react/scss/components/accordion';
+@use '@carbon/react/scss/fonts/sans';
+
+@use './fonts/sans-condensed.scss' as sans-consensed;
+
+:root {
+  @include theme.theme(themes.$g10);
+}
+
+@include grid.flex-grid();
+@include type.type-classes();
+@include sans.all;
+@include sans-consensed.all;
+
+body {
+  background: theme.$background;
+  color: theme.$text-primary;
+}
+
+@import 'components/components.scss';
+
+.border-subtle-00 {
+  border-color: theme.$border-subtle-00;
+}

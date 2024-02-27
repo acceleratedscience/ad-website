@@ -1,0 +1,34 @@
+.button {
+  &--green {
+    background-color: colors.$green-30;
+    color: theme.$text-primary;
+    &:hover {
+      background-color: colors.$green-40;
+      color: theme.$text-primary;
+    }
+  }
+  &--blue-20 {
+    background-color: colors.$blue-20;
+    color: theme.$text-primary;
+    &:hover {
+      background-color: colors.$blue-30;
+      color: theme.$text-primary;
+    }
+  }
+  &--blue-30 {
+    background-color: colors.$blue-30;
+    color: theme.$text-primary;
+    &:hover {
+      background-color: colors.$blue-40;
+      color: theme.$text-primary;
+    }
+  }
+  &--yellow {
+    background: colors.$yellow-30;
+    color: theme.$text-primary;
+    &:hover {
+      background-color: colors.$yellow-30;
+      color: theme.$text-primary;
+    }
+  }
+}

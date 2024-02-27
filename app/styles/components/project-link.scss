@@ -1,0 +1,24 @@
+.project-link {
+  color: theme.$text-primary;
+  padding-top: var(--cds-spacing-05);
+  padding-bottom: var(--cds-spacing-05);
+  @apply w-full flex items-center;
+  @include breakpoint-down('md') {
+    padding-top: var(--cds-spacing-04);
+    padding-bottom: var(--cds-spacing-04);
+  }
+
+  svg {
+    margin-left: var(--cds-spacing-08);
+    @apply w-12 h-12;
+  }
+
+  &-background {
+    margin-top: var(--cds-spacing-12);
+    background-color: colors.$green-30;
+  }
+
+  &-container {
+    background-color: colors.$green-30;
+  }
+}
