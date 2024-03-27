@@ -12,12 +12,6 @@ import ProductPageBannerHero from '@/app/components/ProductPageBannerHero';
 import ImageFullScreen from '@/app/components/ImageFullScreen';
 import { Project } from '@/app/interfaces';
 import TileBoxes from '@/app/components/TileBoxes';
-import HeapSeo from "@/app/components/HeapSeo";
-
-export const heapHeadCode = () => {
-    return (<SEO heapProjectId="757684585" />
-);
-};
 
 export const generateStaticParams = async () => {
   const dir = path.join(process.cwd(), 'public', 'data', 'projects');
