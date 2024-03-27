@@ -5,8 +5,8 @@ import Banner from './components/Banner';
 import ProjectBox from './components/ProjectBox';
 import HeroBanner from './components/HeroBanner';
 import TileBoxes from './components/TileBoxes';
-import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   return (
