@@ -3,13 +3,8 @@
 
 import Head from "next/head";
 
-const SEO = ({ heapProjectId }) => (
+export const SEO = ({ heapProjectId }) => (
     <Head>
-        <script type="text/javascript">
-        var r=0;
-        </script>
+        <script type="text/javascript"> var r=0; </script>
     </Head>
-
 );
-
-export default SEO;
