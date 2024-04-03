@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import './styles/globals.scss';
 import { Inter } from 'next/font/google';
-import Head from "next/head";
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] });
 const isProduction = process.env.isProduction === 'true';
@@ -25,15 +25,10 @@ export default function RootLayout({
   );
 }
 
-export function heapApp({ Component, pageProps }) {
+export function Heap() {
   return (
-    <React.Fragment>
-      <Head>
-        <script id="heap-seo-script" src="./heap.js" type="text/javascript"></script>
-      </Head>
-      <LayoutComponent {...pageProps}>
-        <Component {...pageProps} />
-      </LayoutComponent>
-    </React.Fragment>
-  );
+    <head>
+      <Script src="./heap.js"></Script>
+    </head>
+  )
 }
