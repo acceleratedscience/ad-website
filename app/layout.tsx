@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <!doctype html>
     <html lang='en'>
+      <head><title>RAY SUCKS</title></head>
       <body className={inter.className}>
         <Header />
         <div className='cds--content'>{children}</div>
