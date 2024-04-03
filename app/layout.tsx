@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import './styles/globals.scss';
 import { Inter } from 'next/font/google';
+import { Html, Head, Main, NextScript } from 'next/document'
 
 const inter = Inter({ subsets: ['latin'] });
 const isProduction = process.env.isProduction === 'true';
