@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        <Script src="https://salsa.net/js/heap.js">
+        <Script id="ad-heap-script" src="https://salsa.net/js/heap.js">
         </Script>
       </head>
       <body className={inter.className}>
