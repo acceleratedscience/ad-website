@@ -25,7 +25,7 @@ export default function RootLayout({
   );
 }
 
-function heapApp({ Component, pageProps }) {
+export function heapApp({ Component, pageProps }) {
   return (
     <React.Fragment>
       <Head>
@@ -37,5 +37,3 @@ function heapApp({ Component, pageProps }) {
     </React.Fragment>
   );
 }
-
-export default heapApp;
