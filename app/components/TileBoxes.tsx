@@ -14,7 +14,7 @@ export default function TileBoxes({
 }) {
   return (
     <div className={`relative w-full bg-white -z-0 ${className}`}>
-      <div className='-z-10 absolute hidden md:block left-0 bottom-0 w-full h-1/2 md:h-full md:left-auto md:right-0 md:top-0 md:bottom-0 md:w-1/2 bg-[black]'></div>
+      <div className='-z-10 absolute hidden md:block left-0 bottom-0 w-full h-1/2 md:h-full md:left-auto md:right-0 md:top-0 md:bottom-0 md:w-1/2 bg-[#0f62fe]'></div>
       <FlexGrid>
         <Row>
           {tileBoxes && tileBoxes[0] && (
@@ -52,7 +52,7 @@ export default function TileBoxes({
               md={4}
               lg={8}
               xlg={{ span: 7, offset: 1 }}
-              className='bg-[black]'
+              className='bg-[#0f62fe]'
             >
               <LinksBox
                 title={tileBoxes[1].title}
@@ -88,3 +88,4 @@ export default function TileBoxes({
     </div>
   );
 }
+
