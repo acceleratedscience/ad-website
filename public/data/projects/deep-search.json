@@ -127,12 +127,13 @@
     {
       "title": "Deep Search for Teams",
       "subtitle": "Deep Search is most powerful when used by your entire team. Request a meeting to learn more.",
-      "hubspotFormConfig": {
-        "region": "na1",
-        "portalId": "22330883",
-        "formId": "49adb704-6bbd-4464-b25d-c0c16fae0621",
-        "submitText": "Contact a representative"
-      }
+      "links": [
+	      {
+		      "href": "https://ibm.biz/ad-contact",
+		      "label": "Contact us for more information"
+	      }
+      ]
+ 
     }
   ]
 }

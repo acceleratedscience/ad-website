@@ -123,12 +123,12 @@
     {
       "title": "RXN for Teams",
       "subtitle": "RXN for Chemistry is most powerful when used by your entire team. Request a meeting to learn more.",
-      "hubspotFormConfig": {
-        "region": "na1",
-        "portalId": "22330883",
-        "formId": "b8c36321-e327-4bdb-9f4a-45ce7f2d71c1",
-        "submitText": "Contact a representative"
-      }
+      "links": [
+	      {
+		      "href": "https://ibm.biz/ad-contact",
+		      "label": "Contact us for more information"
+	      }
+      ]
     }
   ]
 }
