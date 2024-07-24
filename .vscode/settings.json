@@ -13,5 +13,8 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "prettier.jsxSingleQuote": true
+  "prettier.jsxSingleQuote": true,
+  "frontMatter.framework.id": "next",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.preview.host": "http://localhost:3000"
 }

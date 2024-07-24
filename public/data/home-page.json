@@ -9,6 +9,26 @@
     "description": "Accelerated Discovery builds on IBM’s research into the fundamental elements of life and the planet -- matter and molecules -- to uncover new materials that can positively impact humanity.<br/><br/>We are developing advanced technologies incorporating AI, hybrid cloud and quantum into scientific research."
   },
   "projects": [
+      {
+      "title": "Open Source framework for accelerated discovery",
+      "subtitle": "Open Accelerated Discovery",
+      "description": "Reduce the time and effort required to build and deploy complex Accelerated Discovery solutions made up of different machine learning models. Open Accelerated Discovery (OpenAD) integrates Accelerated Discovery tools and applications into an open source framework",
+      "primaryAction": {
+        "href": "/projects/openad",
+        "label": "Learn more"
+      },
+      "secondaryAction": {
+        "href": "https://rxn.res.ibm.com",
+        "label": "Try for free"
+      },
+      "images": [
+        {
+          "imagePath": "openad/banner-home-page.jpg",
+          "parallaxImagePath": "openad/parallax.png",
+          "alt": "RXN for Chemistry"
+        }
+      ]
+    },
     {
       "title": "Chemical Synthesis",
       "subtitle": "RXN for Chemistry",
