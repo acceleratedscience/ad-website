@@ -112,6 +112,10 @@
         {
           "href": "https://ds4sd.github.io/",
           "label": "Try Deep Search, free"
+        },
+	        {
+          "href": "https://ds4sd.github.io/",
+          "label": "Try OpenAD, free"
         }
       ]
     },
