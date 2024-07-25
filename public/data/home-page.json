@@ -18,7 +18,7 @@
         "label": "Learn more"
       },
       "secondaryAction": {
-        "href": "https://rxn.res.ibm.com",
+        "href": "https://github.com/acceleratedscience/open-ad-toolkit",
         "label": "Try for free"
       },
       "images": [
@@ -114,7 +114,7 @@
           "label": "Try Deep Search, free"
         },
 	        {
-          "href": "https://ds4sd.github.io/",
+          "href": "https://github.com/acceleratedscience/open-ad-toolkit",
           "label": "Try OpenAD, free"
         }
       ]
