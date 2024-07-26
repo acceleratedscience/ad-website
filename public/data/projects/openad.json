@@ -63,7 +63,54 @@
       }
     ]
   },
-    "pricing": [
+  "articles": {
+    "title": "Learn more about OpenAD",
+    "description": "The OpenAD Blog features posts from OpenAD scientists and developers. The source code for OpenAD is available on Github. Installing OpenAD is easy with PyPI.",
+    "url": {
+      "href": "https://ibm.biz/openad-blog",
+      "label": "Visit the OpenAD Blog"
+    },
+    "items": [
+      {
+        "title": "openad on PyPI.org",
+        "authors": " : OpenAD is available via the pip install command in Python. This is the easiest way to install OpenAD on your computer.",
+        "url": "https://pypi.org/project/openad/"
+      },
+      {
+        "title": "OpenAD Tool Kit on Github",
+        "authors": " :  The OpenAD tool kit is an open-source framework developed by IBM Research, aggregating a number of molecular science toolkits into a single API that can be accessed by command line, a Jupyter Notebook and (soon) an API.",
+        "url": "https://github.com/acceleratedscience/open-ad-toolkit"
+      },
+      {
+	"title": "OpenAD Documentation",
+	"authors": " :  Official documentation for OpenAD hosted on Github.",
+	"url": "https://acceleratedscience.github.io/openad-docs/"
+      }
+             ]
+  },
+
+  "faqs": {
+    "title": "Built on Open Source",
+    "description": "The OpenAD framework is designed to securely and easily deliver Accelerated Discovery models for use in scientific discovery.",
+    "items": [
+      {
+        "title": "Easily deploy scientific AI models",
+        "description": "Automated access and deployment of scientific models on the cloud without custom-engineered environments",
+        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-2.json"
+      },
+      {
+        "title": "Orchestrate tools and projects",
+        "description": "Create and manage project workspaces",
+        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-2.json"
+      },
+      {
+        "title": "Fully open source",
+        "description": "An open source project democratizing IBM's research into machine learning and advanced compute for molecular discovery",
+        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-2.json"
+      }
+    ]
+    },
+   "pricing": [
     {
       "title": "Try OpenAD now, for free",
       "subtitle": "Start accelerating your research today, risk-free, with Open Accelerated Discovery.",
