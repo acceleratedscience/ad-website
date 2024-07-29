@@ -91,22 +91,22 @@
 
   "faqs": {
     "title": "Built on Open Source",
-    "description": "The OpenAD framework is designed to securely and easily deliver Accelerated Discovery models for use in scientific discovery.",
+    "description": "",
     "items": [
       {
         "title": "Easily deploy scientific AI models",
         "description": "Automated access and deployment of scientific models on the cloud without custom-engineered environments",
-        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-2.json"
+        "lottieUrl": "/images/projects/openad/lottie/json/lottie-1.json"
       },
       {
         "title": "Orchestrate tools and projects",
         "description": "Create and manage project workspaces",
-        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-2.json"
+        "lottieUrl": "/images/projects/openad/lottie/json/network_vis.json"
       },
       {
         "title": "Fully open source",
         "description": "An open source project democratizing IBM's research into machine learning and advanced compute for molecular discovery",
-        "lottieUrl": "/images/projects/rxn/lottie/json/lottie-2.json"
+        "lottieUrl": "/images/projects/openad/lottie/json/lottie-2.json"
       }
     ]
     },
