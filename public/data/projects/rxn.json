@@ -121,12 +121,12 @@
       ]
     },
     {
-      "title": "RXN for Teams",
-      "subtitle": "RXN for Chemistry is most powerful when used by your entire team. Request a meeting to learn more.",
+      "title": "Individual and Team Plans",
+      "subtitle": "RXN for Chemistry is available to individuals paying by credit card, or to teams paying by monthly or annual invoicing.",
       "links": [
 	      {
-		      "href": "https://ibm.biz/ad-contact",
-		      "label": "Contact us for more information"
+		      "href": "/rxn-pricing",
+		      "label": "View plans for Teams and Individuals"
 	      }
       ]
     }
