@@ -1,0 +1,9 @@
+{
+	"redirects": [
+		{
+			"source": "/projects/openad",
+			"destination": "https://openad.accelerate.science",
+			"permanent": false
+		}
+	]
+}
