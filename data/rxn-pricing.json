@@ -1,0 +1,13 @@
+{
+  "title": "Get Unlimited Access to RXN",
+  "subtitle": "Accelerated Discovery",
+  "description": "<H2>Integrate RXN for Chemistry into your existing workflows. Get API access, no rate limitations, and the managed infrastructure required for cutting-edge research applications.</H2><BR /><H3>Individual Plan</H3><P><B>Pay as you go</B>, with discounts for increased use. Currently only available in the US.</P><BR><h4>Cost based on monthly compute time:</h4><TABLE><TR><TD>0-480 minutes</TD><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><TD>USD 0.70/minute</TD></TR><tr><td>480-960 min</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>USD 0.50/minute</td></tr><tr><td>960+ min</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>USD 0.40/minute</td></tr></TABLE><br><p><strong><a href=https://rxn.app.accelerate.science/rxn/account/billing>Sign up for access to RXN</a> then go to your Account settings to enter your credit card information.</strong></p><br /><H3>Team Plan</H3><P><B>Flat-fee team licenses.</B> Choose annual billing and save 10%.</P><BR><TABLE><TR><TD>Billed annually</TD><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><TD>USD 88000/yr (up to 10 users)</TD></TR><tr><td>Billed monthly</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>USD 8150/month (up to 10 users)</td></tr></TABLE><br><p><strong><a href=https://ibm.biz/ad-contact>Contact a representative</a> for a Team Plan or for more information on RXN for Chemistry.</strong></p>",
+  "bannerImage": {
+    "imagePath": "rxn-pricing/banner.jpg",
+    "alt": "Scientist"
+  },
+  "bannerImageMobile": {
+    "imagePath": "rxn-pricing/banner-mobile.jpg",
+    "alt": "Scientist"
+  }
+}
