@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	basePath: '/website', // Fix relative paths in exported files
+	// basePath: '/website', // Fix relative paths in exported files
 	assetPrefix: '/website', // Fix relative paths in exported files
 	images: {
 		loader: 'custom',
@@ -20,13 +20,15 @@ const nextConfig = {
 		// `placeholder="empty"` to all <ExportedImage> components.
 		nextImageExportOptimizer_generateAndUseBlurImages: 'true',
 
-		NEXT_PUBLIC_BASE_PATH: process.env.NODE_ENV === 'production' ? '' : ''
+		// Prefix for static image paths
+		NEXT_PUBLIC_BASE_PATH:
+			process.env.NODE_ENV === 'production' ? '/website' : ''
 	}
 
-	// Forward old /projects/openad to standalone website
-	// Not possible due to output: 'export' We're using a
-	// vercel redirect via vercel.json, plus a JS redirect
-	// with a custom template as a fallback.
+	// // Forward old /projects/openad to standalone website
+	// // Not possible due to output: 'export' We're using a
+	// // vercel redirect via vercel.json, plus a JS redirect
+	// // with a custom template as a fallback.
 	// async redirects() {
 	// 	return [
 	// 		{
