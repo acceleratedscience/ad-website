@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export',
+	output: 'export', // Export as static HTML pages to /out
+	basePath: '/website', // Fix relative paths in exported files
 	images: {
 		loader: 'custom',
 		imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -10,7 +11,7 @@ const nextConfig = {
 	env: {
 		nextImageExportOptimizer_imageFolderPath: 'public/images',
 		nextImageExportOptimizer_exportFolderPath: 'out',
-		nextImageExportOptimizer_quality: 70,
+		nextImageExportOptimizer_quality: '70',
 		nextImageExportOptimizer_storePicturesInWEBP: 'true',
 		nextImageExportOptimizer_exportFolderName: 'nextImageExportOptimizer',
 
