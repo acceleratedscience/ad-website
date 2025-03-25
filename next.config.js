@@ -13,7 +13,7 @@ const nextConfig = {
 	},
 	transpilePackages: ['next-image-export-optimizer'],
 	env: {
-		nextImageExportOptimizer_imageFolderPath: 'public/website/images',
+		nextImageExportOptimizer_imageFolderPath: 'public/images',
 		nextImageExportOptimizer_exportFolderPath: 'out',
 		nextImageExportOptimizer_quality: 70,
 		nextImageExportOptimizer_storePicturesInWEBP: 'true',
