@@ -32,7 +32,12 @@ export default function Header() {
 					<div className='cds--col'>
 						<Link href={'/'} className='flex items-center'>
 							<ExportedImage
-								src={'/images/logo-ibm-' + theme + '.png'}
+								src={
+									process.env.NEXT_PUBLIC_BASE_PATH +
+									'/images/logo-ibm-' +
+									theme +
+									'.png'
+								}
 								width={65}
 								height={26}
 								alt='IBM'
