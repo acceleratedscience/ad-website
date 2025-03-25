@@ -19,7 +19,7 @@ export default function HeroBanner({
 			>
 				<div className='flex flex-col text-white h-full'>
 					<ExportedImage
-						src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/home-page/hero-banner.jpg`}
+						src={`/images/home-page/hero-banner.jpg`}
 						alt=''
 						fill
 						loading='eager'
