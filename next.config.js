@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	basePath: '/website', // Fix relative paths in exported files
-	assetPrefix: '/website', // Prefix for react-defined images
+	// output: 'export',
+	// basePath: '/website', // Fix relative paths in exported files
+
+	// Prefix for images, JS, CSS
+	assetPrefix: process.env.NODE_ENV === 'production' ? '/website' : '',
+
 	images: {
 		loader: 'custom',
 		imageSizes: [10, 16, 32, 48, 64, 96, 128, 256, 384],
