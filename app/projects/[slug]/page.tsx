@@ -52,7 +52,7 @@ export default async function Project({
 			<div
 				className={`background-product-page bg-[image:var(--image-url)] border-8 border-orange-500 bg-cover bg-center`}
 				style={{
-					['--image-url' as any]: `linear-gradient(to bottom, rgba(255,255,255,0) 50%, #f4f4f4 80%), url(/images/projects/${project.bannerImage.imagePath})`
+					['--image-url' as any]: `linear-gradient(to bottom, rgba(255,255,255,0) 50%, #f4f4f4 80%), url(${process.env.NEXT_PUBLIC_BASE_PATH}/images/projects/${project.bannerImage.imagePath})`
 				}}
 			></div>
 
@@ -64,7 +64,7 @@ export default async function Project({
 					}}
 				></div>
 				<ExportedImage
-					src={`/images/projects/${project.bannerImageMobile.imagePath}`}
+					src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/projects/${project.bannerImageMobile.imagePath}`}
 					fill
 					className='object-cover z-10'
 					alt={project.title}
