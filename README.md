@@ -19,6 +19,9 @@ Here's an interactive [Next.js tutorial](https://nextjs.org/learn)
 
 ## Deployment
 
+<!-- chmod +x deploy.sh -->
+<!-- ./deploy.sh -->
+
 Build command:
 
 ```bash
