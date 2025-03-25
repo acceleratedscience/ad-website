@@ -21,8 +21,7 @@ const nextConfig = {
 		// `placeholder="empty"` to all <ExportedImage> components.
 		nextImageExportOptimizer_generateAndUseBlurImages: 'true',
 
-		NEXT_PUBLIC_BASE_PATH:
-			process.env.NODE_ENV === 'production' ? '/website' : ''
+		NEXT_PUBLIC_BASE_PATH: process.env.NODE_ENV === 'production' ? '' : ''
 	},
 
 	// Forward old /projects/openad to standalone website
