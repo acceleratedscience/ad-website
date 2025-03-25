@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export', // Export as static HTML pages to /out
-	basePath: '/website', // Fix relative paths in exported files
+	// output: 'export', // Export as static HTML pages to /out
+	// basePath: '/website', // Fix relative paths in exported files
+	// assetPrefix: '/website', // Fix relative paths in exported files
 	images: {
 		loader: 'custom',
 		imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
