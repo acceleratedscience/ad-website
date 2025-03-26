@@ -76,6 +76,11 @@ export default function FaqsList({
 				</div>
 				<div className='section-row-col-small'>
 					<Tile className='tile--blue-70 h-full !flex items-end justify-center'>
+						<pre style={{ position: 'absolute' }}>
+							AAAAAA:{' '}
+							{process.env.NEXT_PUBLIC_BASE_PATH +
+								faqs.items[0].lottieUrl}
+						</pre>
 						{faqs.items.map(
 							(faq, index) =>
 								currentFaq === index && (
