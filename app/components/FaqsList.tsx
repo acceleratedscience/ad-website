@@ -83,7 +83,10 @@ export default function FaqsList({
 										key={index}
 										autoplay
 										loop
-										src={faq.lottieUrl}
+										src={
+											process.env.NEXT_PUBLIC_BASE_PATH +
+											faq.lottieUrl
+										}
 										className='w-full'
 									></Player>
 								)
