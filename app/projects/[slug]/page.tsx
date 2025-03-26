@@ -55,7 +55,6 @@ export default async function Project({
 					['--image-url' as any]: `linear-gradient(to bottom, rgba(255,255,255,0) 50%, #f4f4f4 80%), url(${process.env.NEXT_PUBLIC_BASE_PATH}/images/projects/${project.bannerImage.imagePath})`
 				}}
 			></div>
-
 			<div className='md:hidden relative w-full h-[60vh]'>
 				<div
 					className='absolute inset-0 z-20'
@@ -71,7 +70,6 @@ export default async function Project({
 					loading={'eager'}
 				/>
 			</div>
-
 			<ProductPageBannerHero {...project}>
 				{project.bannerCta && project.bannerCta.href && (
 					<LinkButton
@@ -82,7 +80,6 @@ export default async function Project({
 					</LinkButton>
 				)}
 			</ProductPageBannerHero>
-
 			{project.mainImage && project.mainImageMobile && (
 				<ImageFullScreen
 					image={project.mainImage}
@@ -90,13 +87,10 @@ export default async function Project({
 					loading='lazy'
 				></ImageFullScreen>
 			)}
-
 			{project.titleBoxText && (
 				<TitleBoxText text={project.titleBoxText} />
 			)}
-
 			{project.faqs && <FaqsList faqs={project.faqs}></FaqsList>}
-
 			{project.articles && (
 				<ArticleList articles={project.articles}>
 					<div className='mt-8'>
@@ -109,18 +103,15 @@ export default async function Project({
 					</div>
 				</ArticleList>
 			)}
-
 			{project.features && (
 				<FeaturesBox features={project.features}></FeaturesBox>
 			)}
-
 			{project.pricing && (
 				<TileBoxes
 					tileBoxes={project.pricing}
 					className='mt-16 md:mt-24'
 				></TileBoxes>
 			)}
-
 			{project.tryItOut && (
 				<ProjectLink
 					label={project.tryItOut.label}
