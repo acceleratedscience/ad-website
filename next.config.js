@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	// TODO: figure out how to run prod build locally with basepath: localhost:3000/website
+	// TODO: figure out how to run prod build locally with basepath: localhost:3000/ad-website
 	// This is not working as intended, abandoned for now
-	// basePath: process.env.NODE_ENV === 'production' ? '/website' : '',
+	// basePath: process.env.NODE_ENV === 'production' ? '/ad-website' : '',
 
 	// Prefix for images, JS, CSS
-	assetPrefix: process.env.NODE_ENV === 'production' ? '/website' : '',
+	assetPrefix: process.env.NODE_ENV === 'production' ? '/ad-website' : '',
 
 	images: {
 		loader: 'custom',
@@ -27,7 +27,7 @@ const nextConfig = {
 
 		// Prefix for static image paths
 		NEXT_PUBLIC_BASE_PATH:
-			process.env.NODE_ENV === 'production' ? '/website' : ''
+			process.env.NODE_ENV === 'production' ? '/ad-website' : ''
 	}
 
 	// Forward old /projects/openad to new standalone website

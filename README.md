@@ -1,8 +1,8 @@
 # Accelerate.Science Website
 
 This is the website for [accelerate.science](https://accelerate.science) (to be rerouted)  
-- [GitHub Repo](http://github.com/acceleratedscience/website)  
-- [GitHub Pages](https://acceleratedscience.github.io/website)
+- [GitHub Repo](http://github.com/acceleratedscience/ad-website)  
+- [GitHub Pages](https://acceleratedscience.github.io/ad-website)
 
 <br>
 
@@ -28,7 +28,7 @@ Here's an interactive [Next.js tutorial](https://nextjs.org/learn)
 Deployment to GitHib pages happens automatically when changes are pushed to the `main` branch.
 
 > [!NOTE]
-> Local production build will be broken because all files and images get prepended with `/website` to work on GitHub pages.
+> Local production build will be broken because all files and images get prepended with `/ad-website` to work on GitHub pages.
 
 ```bash
 npm run build
