@@ -1,9 +1,11 @@
+/**
+ * This is an alternative config file for making this website work on GitHub Pages
+ * where the URL and all files have the /ad-website base path.
+ * https://acceleratedscience.github.io/ad-website/
+ */
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	// TODO: figure out how to run prod build locally with basepath: localhost:3000/ad-website
-	// This is not working as intended, abandoned for now
-	// basePath: process.env.NODE_ENV === 'production' ? '/ad-website' : '',
-
 	// Prefix for images, JS, CSS
 	assetPrefix: process.env.NODE_ENV === 'production' ? '/ad-website' : '',
 
