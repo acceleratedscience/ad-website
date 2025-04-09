@@ -45,4 +45,4 @@ npm run start
 
 <!-- Domain name is managed by IBM Webmaster Jerry Liao @jerryliao / jliao [at] ca.ibm.com  -->
 
-This website is hosted on GitHub Pages at [acceleratedscience.github.io/openad-website](https://acceleratedscience.github.io/openad-website). Our domain is registered with Google domains and managed by the IBM webmaster, with a `ANAME` record pointing to `acceleratedscience.github.io` per [GitHub docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain).
+This website is hosted on GitHub Pages at [acceleratedscience.github.io/ad-website](https://acceleratedscience.github.io/ad-website). Our domain is registered with Google domains and managed by the IBM webmaster, with a `ANAME` record pointing to `acceleratedscience.github.io` per [GitHub docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain).
