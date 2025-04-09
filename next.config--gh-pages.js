@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	// TODO: figure out how to run prod build locally with basepath: localhost:3000/ad-website
+	// This is not working as intended, abandoned for now
+	// basePath: process.env.NODE_ENV === 'production' ? '/ad-website' : '',
+
 	// Prefix for images, JS, CSS
-	assetPrefix: '',
+	assetPrefix: process.env.NODE_ENV === 'production' ? '/ad-website' : '',
 
 	images: {
 		loader: 'custom',
@@ -22,7 +26,8 @@ const nextConfig = {
 		nextImageExportOptimizer_generateAndUseBlurImages: 'true',
 
 		// Prefix for static image paths
-		NEXT_PUBLIC_BASE_PATH: ''
+		NEXT_PUBLIC_BASE_PATH:
+			process.env.NODE_ENV === 'production' ? '/ad-website' : ''
 	}
 
 	// Forward old /projects/openad to new standalone website
