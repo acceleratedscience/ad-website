@@ -24,6 +24,7 @@ export default function RootLayout({
 					id='ad-heap-script'
 					src='https://salsa.net/js/heap.js'
 				></Script>
+				<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 			</head>
 			<body className={inter.className}>
 				<Header />
